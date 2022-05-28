@@ -19,7 +19,7 @@ function App() {
 
   return (
     <ThemeProvider theme={darkTheme}>
-      <Box bgcolor="background.default" color="text.primary">
+      <Box bgcolor="background.default" color="text.primary" minHeight="100vh">
         <Navbar />
         <Stack direction="row" spacing={2} justifyContent="space-between">
           <Sidebar
